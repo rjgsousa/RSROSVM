@@ -1,0 +1,3 @@
+
+dataset = 'syntheticI'
+script(dataset)
