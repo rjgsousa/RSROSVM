@@ -1,6 +1,5 @@
-
 function [trainIDX, toRemove ] = changeDataset( toRemove, trainIDX, options )
-% function to modify the dataset
+    %% function to modify the dataset    
     
     global dataclasses
 
