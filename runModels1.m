@@ -1,4 +1,3 @@
-
 function [best_options, roc_data] = runModels1(folds, combinations, wr, options,data)
     global datafeatures
     global dataclasses
@@ -156,7 +155,7 @@ function [best_options, roc_data] = runModels1(folds, combinations, wr, options,
                 roc_data(item,3));
     end
     fprintf(1,'\n\n');
-    return;
+    return
     
 %%                                                                                                     
 %
